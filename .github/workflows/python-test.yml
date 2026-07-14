@@ -15,5 +15,7 @@ jobs:
         run: |
           pip install fastapi uvicorn pytest
       - name: Ejecutar pruebas
+        env:
+          PYTHONPATH: .
         run: |
           pytest tests/
