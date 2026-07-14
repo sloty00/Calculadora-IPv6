@@ -1,0 +1,17 @@
+name: Deploy to Cloud
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy to Cloud Provider
+        # Aquí iría el comando específico de tu proveedor (Render/Railway/etc)
+        # Por ejemplo, si usas Railway CLI:
+        # run: railway up
+        run: echo "Desplegando middleware de red en producción..."
