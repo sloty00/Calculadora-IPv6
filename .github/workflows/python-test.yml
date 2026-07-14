@@ -1,0 +1,19 @@
+name: Python Middleware Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Instalar dependencias
+        run: |
+          pip install fastapi uvicorn pytest
+      - name: Ejecutar pruebas
+        run: |
+          pytest tests/
