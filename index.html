@@ -9,12 +9,13 @@
 <body>
     <div class="container">
         <h1>Calculadora IPv6</h1>
-        <div class="form-group">
+         <div class="form-group">
             <input type="text" id="base_ipv6" placeholder="Ej: 2001:db8::/48">
-            <input type="number" id="prefix" placeholder="Nuevo prefijo (ej: 64)">
+            <input type="number" id="prefix" placeholder="64">
             <button onclick="calcular()">Subnetear</button>
         </div>
-        <table id="resultTable">
+        
+        <table>
             <thead>
                 <tr>
                     <th>Red</th>
@@ -23,7 +24,7 @@
                     <th>Rango Final</th>
                 </tr>
             </thead>
-            <tbody id="resultsBody"></tbody>
+            <tbody></tbody>
         </table>
     </div>
     <script src="./static/js/main.js"></script>
