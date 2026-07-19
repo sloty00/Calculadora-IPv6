@@ -42,18 +42,24 @@ Calculadora-IPv6/
 
 Para levantar el entorno de desarrollo local:
 
-###Clonar el repositorio:
+### Clonar el repositorio:
 
 ```Bash
 git clone [https://github.com/sloty00/Calculadora-IPv6](https://github.com/sloty00/Calculadora-IPv6)
-Instalar dependencias:
+```
+
+### Instalar dependencias:
 
 ```Bash
 pip install fastapi uvicorn
-Ejecutar el servidor:
+```
+
+### Ejecutar el servidor:
 
 ```Bash
 uvicorn app:app --reload
+```
+
 Desarrollado para Devnod-INC. Tecnología aplicada al control de infraestructura de nueva generación.
 
 
