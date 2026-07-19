@@ -61,8 +61,3 @@ uvicorn app:app --reload
 ```
 
 Desarrollado para Devnod-INC. Tecnología aplicada al control de infraestructura de nueva generación.
-
-
-### Tips para tu despliegue:
-*   **Requisitos:** Si aún no lo tienes, recuerda crear un `requirements.txt` con `pip freeze > requirements.txt` para que tu despliegue automático en la nube funcione sin problemas.
-*   **Visuales:** Dado que ya tienes el `README.md`, si subes una pequeña captura de pantalla de la herramienta funcionando en la carpeta `public/images` y la vinculas en el README, le darás un toque final de nivel **S-Class**. 
