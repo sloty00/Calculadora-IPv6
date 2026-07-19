@@ -37,7 +37,8 @@ Calculadora-IPv6/
 ├── .github/workflows/   # CI/CD (Python Testing & Deploy)
 └── app.py               # Servidor FastAPI
 
-## Instalación y Ejecución
+
+## 🛠 Instalación y Ejecución
 
 Para levantar el entorno de desarrollo local:
 
